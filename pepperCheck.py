@@ -34,6 +34,9 @@ OSIFO=(f'SO : {SO}({DISTRO["id"].upper()}) -- Versão : {DISTRO["version"]}  -- 
 print(OSIFO)
 print(WHOAMI)
 
+
+# https://pt.stackoverflow.com/questions/141269/manipula%C3%A7%C3%A3o-de-ping-em-python
+## não é isso que quero, vou olhar isso amanhã
 def ping(host):
 
     if  platform.system().lower()=="windows":
