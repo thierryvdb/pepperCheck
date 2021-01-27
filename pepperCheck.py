@@ -35,17 +35,3 @@ print(OSIFO)
 print(WHOAMI)
 
 
-# https://pt.stackoverflow.com/questions/141269/manipula%C3%A7%C3%A3o-de-ping-em-python
-## não é isso que quero, vou olhar isso amanhã
-def ping(host):
-
-    if  platform.system().lower()=="windows":
-        ping_str = "-n 1"
-    else:
-        ping_str = "-c 1"
-
-    resposta = os.system("ping " + ping_str + " " + host)
-    return "alive"
-
-
-ping('google.com')
